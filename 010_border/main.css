@@ -1,0 +1,21 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+
+img {
+  border: 10px groove orangered;
+}
+
+.dog {
+  border: 10px dashed yellow;
+}
+
+.jail {
+  border: 10px dotted brown;
+}
+
+.jailtwo {
+  border: 10px double pink;
+}
