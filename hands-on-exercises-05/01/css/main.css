@@ -1,0 +1,12 @@
+
+/*specificity of 10*/
+.class {
+  color: blue;
+}
+
+/*specificity of 100*/
+#id {
+  color: red;
+}
+
+/*id overwrites class because of it's specificity is higher*/

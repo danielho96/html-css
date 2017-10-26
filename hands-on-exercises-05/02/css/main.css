@@ -1,0 +1,12 @@
+
+/*specificity of 1*/
+p {
+  color: green;
+}
+
+/*specificity of 100*/
+#id {
+  color: blue;
+}
+
+/*id overwrites <p> because it's specificity is higher*/

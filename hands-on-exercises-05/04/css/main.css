@@ -1,0 +1,12 @@
+
+/*specificity of 1*/
+a {
+  color: red;
+}
+
+/*specificity of 10*/
+[target=_blank] {
+  color: purple;
+}
+
+/*target overwrites <a> because it's specificity is higher*/

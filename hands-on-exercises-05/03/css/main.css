@@ -1,0 +1,12 @@
+
+/*specificity of 1*/
+p {
+  color: red;
+}
+
+/*specificity of 10*/
+.class {
+  color: blue;
+}
+
+/*class overwrites <p> because it's specificity is higher*/

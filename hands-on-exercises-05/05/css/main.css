@@ -1,0 +1,12 @@
+
+/*specificity of 10*/
+.class {
+  color: green;
+}
+
+/*specificity of 10*/
+[href] {
+  color: red;
+}
+
+/*href overwrites class because its the last line of code*/
