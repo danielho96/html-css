@@ -1,0 +1,4 @@
+www.google.com - absolute URL
+../pic/dog.jpg - relative URL
+/pic/dog.jpg - absolute URL
+chapter07/index.html - relative URL
