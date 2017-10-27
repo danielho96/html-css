@@ -1,0 +1,11 @@
+#right {
+  font-size: x-large;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+}
+
+#wrong {
+  font-size: x-large;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}

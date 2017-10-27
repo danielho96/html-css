@@ -1,0 +1,16 @@
+p {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: large;
+  min-width: 550px;
+  text-indent: 1rem;
+}
+
+p::first-letter {
+  font-size: xx-large;
+  color: red;
+}
+
+p::first-line {
+  font-size: large;
+  color: red;
+}
