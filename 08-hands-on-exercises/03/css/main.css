@@ -1,0 +1,23 @@
+body {
+  border: 5px solid blue;
+  width: 60%%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+}
+
+main, nav {
+  border: 2px solid purple;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+main {
+  display:inline-block;
+  width: 80%;
+}
+
+nav {
+  display: inline-block;
+  width: 20%;
+}

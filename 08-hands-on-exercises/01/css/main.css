@@ -1,0 +1,32 @@
+div {
+  height: 80px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: blue;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+div:nth-child(odd) {
+  background-color: green;
+}
+
+div:nth-child(11n+2) {
+  background-color: yellow;
+}
+
+div:nth-child(11n+4) {
+  background-color: orangered;
+}
+
+div:nth-child(11n+6) {
+  background-color: hotpink;
+}
+
+div:nth-child(11n+8) {
+  background-color: purple;
+}
+
+div:nth-child(11n+10) {
+  background-color: red;
+}
