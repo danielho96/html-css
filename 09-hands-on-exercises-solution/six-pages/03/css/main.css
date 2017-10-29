@@ -1,0 +1,18 @@
+div {
+  height: 100px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: red;
+}
+
+body {
+  display: flex;
+}
+
+.flex1 {
+  flex-grow: 1;
+}
+
+.flex2 {
+  flex-grow: 2;
+}

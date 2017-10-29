@@ -1,0 +1,12 @@
+div {
+  height: 100px;
+  width: 150px;
+  border: 1px solid blue;
+  background-color: red;
+}
+
+body {
+  border: 2px solid red;
+  display: flex;
+  flex-flow: column wrap;
+}

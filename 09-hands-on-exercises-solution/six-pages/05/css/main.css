@@ -1,0 +1,20 @@
+div {
+  height: 100px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: red;
+}
+
+body {
+  display: flex;
+  flex-basis: 200px;
+}
+
+.flex1 {
+  flex-shrink: 2;
+}
+
+.flex2 {
+  flex-shrink: 3;
+}

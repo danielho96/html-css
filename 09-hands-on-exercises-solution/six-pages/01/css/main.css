@@ -1,0 +1,17 @@
+div {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: red;
+}
+
+body {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end;
+}
+
+#align {
+  align-self: flex-end;
+}

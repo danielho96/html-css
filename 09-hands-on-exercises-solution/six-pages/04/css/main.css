@@ -1,0 +1,19 @@
+div {
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: red;
+}
+
+body {
+  display: flex;
+}
+
+.flex1 {
+  flex-shrink: 1;
+}
+
+.flex2 {
+  flex-shrink: 4;
+}
