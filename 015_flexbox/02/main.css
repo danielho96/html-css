@@ -1,0 +1,14 @@
+div {
+  height: 100px;
+  width: 150px;
+  border: 2px solid blue;
+  background-color: red;
+  text-align: center;
+}
+
+body {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
