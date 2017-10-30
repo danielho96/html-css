@@ -1,0 +1,55 @@
+html, body, head {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.one {
+  background-color: blue;
+  background-image: url("../img/cube.jpg");
+}
+
+.two {
+  background-color: lightblue;
+  background-image: url("../img/earth.jpg");
+}
+
+.three {
+  background-color: red;
+  background-image: url("../img/kitten.jpg");
+}
+
+.four {
+  background-color: green;
+  background-image: url("../img/whitecat.jpg");
+}
+
+.five {
+  background-color: yellow;
+  background-image: url("../img/wolf.jpg");
+}
+
+.six {
+  background-color: hotpink;
+  background-image: url("../img/formal.jpg");
+}
+
+.seven {
+  background-color: purple;
+  background-image: url("../img/jail.jpg");
+}
