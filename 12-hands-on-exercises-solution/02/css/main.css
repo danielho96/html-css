@@ -1,0 +1,23 @@
+html, body, p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  flex-flow: row nowrap;
+  border: 2px solid red;
+  background-image: url("../img/sky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+  color: skyblue;
+}

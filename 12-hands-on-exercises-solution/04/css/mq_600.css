@@ -1,0 +1,19 @@
+body {
+  flex-flow: row wrap;
+}
+
+header {
+  width: 100%;
+}
+
+article {
+  width: 100%;
+}
+
+aside {
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+html, body, header, div, nav, article, aside, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 5px solid black;
+  display: flex;
+  flex-flow: wrap;
+}
+
+div {
+  width: 100%;
+}
+
+header, nav, article, aside, footer {
+  padding: 20px;
+  width: 100%;
+  background-color: skyblue;
+  text-align: center;
+  border-top: 5px solid black;
+  font-size: 1.5rem;
+}
+
+header {
+  border: 0;
+}

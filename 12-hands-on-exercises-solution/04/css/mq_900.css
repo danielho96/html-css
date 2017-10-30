@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+}
+
+aside {
+  width: 20%;
+}
+
+#one {
+  order: 1;
+}
+
+#two{
+  order: 3;
+}
+
+article {
+  width: 60%;
+  order: 2;
+}
+
+footer {
+  order: 4;
+  width: 100%
+}

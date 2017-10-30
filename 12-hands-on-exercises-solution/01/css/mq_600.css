@@ -1,0 +1,9 @@
+ul {
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+li {
+  padding: 1em;
+  border: 0;
+}
