@@ -1,0 +1,30 @@
+html, body, {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  /*position: relative;*/
+}
+
+div {
+  height: 400px;
+  width: 600px;
+  background-color: orangered;
+  border: 2px solid red;
+  position: relative
+}
+
+.one {
+  height: 150px;
+  width: 150px;
+  background-color: purple;
+  border: 2px solid hotpink;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}

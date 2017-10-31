@@ -1,0 +1,15 @@
+html, body, footer{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  border: 2px solid red;
+  background-color: orangered;
+  position: fixed;
+  bottom: 0;
+}

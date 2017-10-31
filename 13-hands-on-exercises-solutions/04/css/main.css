@@ -1,0 +1,35 @@
+html, body, p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+p {
+  padding: 5px;
+}
+
+div {
+  height: 700px;
+}
+
+.one {
+  position: absolute;
+}
+
+.divone {
+  border: 2px solid black;
+  position: relative;
+  width: 30%;
+}
+
+.divtwo {
+  border: 2px solid orangered;
+  width: 70%;
+}
