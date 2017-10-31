@@ -1,0 +1,13 @@
+div {
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-color: skyblue;
+  border: 1px solid royalblue;
+  text-align: center;
+}
+
+p {
+  border: 1px solid red;
+  clear: both;
+}

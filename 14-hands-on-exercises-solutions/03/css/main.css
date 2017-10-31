@@ -1,0 +1,9 @@
+div {
+  width: 100%;
+  border: 5px solid red;
+  overflow: auto;
+}
+
+img {
+  float: left;
+}

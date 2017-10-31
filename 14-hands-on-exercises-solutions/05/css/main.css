@@ -1,0 +1,30 @@
+nav, main, section, body, html, footer{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*border: 2px dashed hotpink;*/ /*debug*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav, main {
+  border: 2px solid red;
+}
+
+nav {
+  width: 30%;
+  float: left;
+}
+
+main {
+  width: 70%;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
