@@ -1,0 +1,13 @@
+div {
+  height: 600px;
+  width: 600px;
+  border: 20px solid black;
+  padding: 20px;
+  color: white;
+  background-image: url("../img/dog.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-color: royalblue;
+}

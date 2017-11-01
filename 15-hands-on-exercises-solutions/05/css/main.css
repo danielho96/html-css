@@ -1,0 +1,5 @@
+body {
+  background-image: url("../img/dog.png");
+  background-size: 700px 100px;
+  background-repeat: repeat-y;
+}

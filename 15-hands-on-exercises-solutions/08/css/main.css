@@ -1,0 +1,8 @@
+div {
+  height: 400px;
+  width: 400px;
+  border: 10px groove orangered;
+  background-image: url("../img/dog.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

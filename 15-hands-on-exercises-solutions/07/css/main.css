@@ -1,0 +1,8 @@
+div {
+  height: 400px;
+  width: 400px;
+  border: 10px groove tomato;
+  background-image: url("../img/dog.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
