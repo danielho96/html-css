@@ -1,0 +1,15 @@
+section {
+  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section > div {
+  height: 90vh;
+}
+
+h1, h2, h3{
+  text-align: center;
+}

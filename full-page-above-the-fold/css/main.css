@@ -1,0 +1,66 @@
+/*html {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: whitesmoke;
+}*/
+
+section {
+  background-image: url("../img/background-photo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section > div {
+  height: 20vh;
+}
+
+#center-space {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#center-spacebetween {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, button {
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 14px;
+}
+
+button {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: rgb(202, 250, 234);
+  padding: 8px;
+  border: 1px solid rgb(202, 250, 234);
+  border-radius: 5px;
+}
