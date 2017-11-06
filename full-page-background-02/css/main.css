@@ -1,0 +1,117 @@
+html {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: whitesmoke;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 2.8rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div, header nav{
+  /*for debugging*/
+  /*border: 2px solid red;*/
+  height: 80%;
+  width: 200px;
+  margin: 0 10px 0 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div a {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  width: 300px;
+}
+
+header nav a {
+  padding: 0 13px 0 13px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 16px;
+}
+
+header div a:hover {
+  color: #83bece;
+}
+
+header nav a:hover {
+  background-color: rgb(49, 51, 48);
+  color: #83bece;
+}
+
+section {
+  background-image: url("../img/background-photo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section > div {
+  height: 20vh;
+}
+
+#center-space {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#center-spacebetween {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+button {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: rgb(202, 250, 234);
+  padding: 8px;
+  border: 1px solid rgb(202, 250, 234);
+  border-radius: 5px;
+}
+
+footer nav a {
+  display: none;
+}

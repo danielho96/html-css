@@ -1,0 +1,49 @@
+header nav a svg, header div a svg {
+  display: none;
+}
+
+header div a {
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section > div {
+  height: 80vh;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+footer nav a {
+  width: 100%;
+  background-color: deepskyblue;
+  padding-left: 30px;
+  font-size: 1.2rem;
+  /*debugg*/
+  /*border: 2px solid hotpink;*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer nav a:hover {
+  background-color: royalblue;
+}
+
+footer nav a svg {
+  padding-right: 15px;
+}

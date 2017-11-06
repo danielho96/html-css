@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Full Page Background Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn to program.">
+    <link rel="stylesheet" href="css/mcleod-reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:400,700">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 600px)">
+    <!-- GOOGLE FONTS -->
+    <!-- Kotta One -->
+    <!-- Cantarell:400,700  -->
+</head>
+<body>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="leaf" viewbox="0 0 100 100">
+      <path d="M87.9,42.5C85.1,56,76.5,64.7,64.4,70.7c-5.8,2.9-12.4,4.7-18.9,4.7c-4.2,0-8.4-0.7-12.4-2c-2.1-0.7-6.2-3.4-8-3.4
+        c-2.2,0-4.8,8.8-8.5,8.8c-2.7,0-3.5-1.3-4.7-3.3c-0.4-0.7-0.7-1-0.7-1.9c0-4.5,8.6-8,8.6-10.5c0-0.4-1.1-2.7-1.3-3.5
+        c-0.3-1.5-0.4-3-0.4-4.5c0-13.8,10.9-23.6,23.2-27.6c8.9-2.9,27.7,0.5,33.7-5.2c2.4-2.2,3.5-4.2,7.2-4.2c4.9,0,6.5,12.7,6.5,16.4
+        C88.8,36.9,88.5,39.7,87.9,42.5z M63.8,40c-15.3,0-25.2,6.4-35.2,17.4c-0.5,0.6-0.8,1.2-0.8,1.9c0,1.5,1.3,2.8,2.8,2.8
+        c0.8,0,1.4-0.3,1.9-0.8c2.1-1.9,4-4,6.1-5.9c7.8-7.1,14.5-9.9,25.2-9.9c1.5,0,2.8-1.3,2.8-2.8S65.4,40,63.8,40z"/>
+    </symbol>
+
+    <symbol id="home" viewbox="0 0 100 100">
+      <path d="M82.8,55.3c-0.2,0.3-0.6,0.4-0.9,0.5c0,0-0.1,0-0.1,0c-0.3,0-0.7-0.1-0.9-0.3L50.7,30.3L20.5,55.5c-0.3,0.2-0.7,0.3-1,0.3
+        c-0.3,0-0.7-0.2-0.9-0.5l-2.7-3.2c-0.5-0.6-0.4-1.5,0.2-2L47.4,24c1.8-1.5,4.8-1.5,6.6,0l10.6,8.9v-8.5c0-0.8,0.6-1.4,1.4-1.4h8.4
+        c0.8,0,1.4,0.6,1.4,1.4v17.8l9.6,7.9c0.6,0.5,0.7,1.4,0.2,2L82.8,55.3z M75.8,76c0,1.5-1.3,2.8-2.8,2.8H56.3V62.1H45.1v16.7H28.4
+        c-1.5,0-2.8-1.3-2.8-2.8V55.1c0-0.1,0-0.2,0-0.3l25.1-20.7l25.1,20.7c0,0.1,0,0.2,0,0.3V76z"/>
+    </symbol>
+
+    <symbol id="briefcase" viewbox="0 0 100 100">
+      <path d="M86.5,46.5H13.5V30.9c0-3.6,2.9-6.5,6.5-6.5h14.3v-6.5c0-2.2,1.8-3.9,3.9-3.9h23.4c2.2,0,3.9,1.8,3.9,3.9v6.5h14.3
+        c3.6,0,6.5,2.9,6.5,6.5V46.5z M86.5,70c0,3.6-2.9,6.5-6.5,6.5H20c-3.6,0-6.5-2.9-6.5-6.5V50.5h27.3V57c0,1.4,1.2,2.6,2.6,2.6h13
+        c1.4,0,2.6-1.2,2.6-2.6v-6.5h27.3V70z M60.4,24.4v-5.2H39.6v5.2H60.4z M55.2,55.7H44.8v-5.2h10.4V55.7z"/>
+    </symbol>
+
+    <symbol id="pencil" viewbox="0 0 100 100">
+      <path d="M71,48.1L34.8,84.3H16.7V66.2l36.2-36.2L71,48.1z M36.5,74.8L26.3,64.6l-4,4v4.7h5.6v5.6h4.6L36.5,74.8z M54.3,37.5
+        c-0.3,0-0.5,0.1-0.7,0.3L30,61.3c-0.2,0.2-0.3,0.5-0.3,0.7c0,0.6,0.4,1,1,1c0.3,0,0.5-0.1,0.7-0.3l23.6-23.6
+        c0.2-0.2,0.3-0.5,0.3-0.7C55.2,37.8,54.9,37.5,54.3,37.5z M81,38.1l-7.2,7.2L55.7,27.3l7.2-7.2c1-1,2.4-1.7,3.9-1.7s2.9,0.6,4,1.7
+        L81,30.3c1,1,1.6,2.5,1.6,4S82,37.1,81,38.1z"/>
+    </symbol>
+
+    <symbol id="gear" viewbox="0 0 100 100">
+      <path d="M83.5,55.9c0,0.7-0.5,1.4-1.2,1.6l-8.1,1.2c-0.5,1.4-1,2.7-1.7,4c1.5,2.1,3.1,4.1,4.7,6c0.3,0.3,0.4,0.7,0.4,1.1
+        s-0.1,0.7-0.4,1c-1,1.4-6.9,7.8-8.4,7.8c-0.4,0-0.8-0.2-1.1-0.4l-6-4.7c-1.3,0.7-2.6,1.2-4,1.7c-0.3,2.7-0.6,5.5-1.3,8.1
+        c-0.2,0.7-0.8,1.2-1.6,1.2h-9.7c-0.8,0-1.5-0.6-1.6-1.3l-1.2-8c-1.4-0.4-2.7-1-3.9-1.6l-6.2,4.7c-0.3,0.3-0.7,0.4-1.1,0.4
+        s-0.8-0.2-1.1-0.5c-2.3-2.1-5.4-4.8-7.2-7.3c-0.2-0.3-0.3-0.7-0.3-1c0-0.4,0.1-0.7,0.3-1c1.5-2,3.1-3.9,4.6-6
+        c-0.7-1.4-1.4-2.8-1.8-4.3l-8-1.2c-0.7-0.1-1.3-0.8-1.3-1.6V46c0-0.7,0.5-1.4,1.2-1.6l8.1-1.2c0.4-1.4,1-2.7,1.7-4
+        c-1.5-2.1-3.1-4.1-4.7-6c-0.3-0.3-0.4-0.7-0.4-1s0.2-0.7,0.4-1c1-1.4,6.9-7.8,8.4-7.8c0.4,0,0.8,0.2,1.1,0.4l6,4.7
+        c1.3-0.7,2.6-1.2,4-1.7c0.3-2.7,0.6-5.5,1.3-8.1c0.2-0.7,0.8-1.2,1.6-1.2h9.7c0.8,0,1.5,0.6,1.6,1.3l1.2,8c1.4,0.4,2.7,1,3.9,1.6
+        l6.2-4.7c0.3-0.3,0.7-0.4,1-0.4c0.4,0,0.8,0.2,1.1,0.4c2.3,2.1,5.4,4.8,7.2,7.4c0.2,0.3,0.3,0.6,0.3,1c0,0.4-0.1,0.7-0.3,1
+        c-1.5,2-3.1,3.9-4.6,6c0.7,1.4,1.4,2.8,1.8,4.3l8,1.2c0.7,0.1,1.3,0.8,1.3,1.6V55.9z M50,39.8c-6.2,0-11.2,5-11.2,11.2
+        s5,11.2,11.2,11.2c6.2,0,11.2-5,11.2-11.2S56.1,39.8,50,39.8z"/>
+    </symbol>
+  </svg>
+
+<header>
+  <div>
+    <a href="#"><svg class="top-of-the-page"><use xlink:href="#leaf"></use></svg>
+    <h1>Colibri Coding Bootcamp</h1></a>
+  </div>
+  <nav>
+    <a href="#"><svg class="top-of-the-page"><use xlink:href="#home"></use></svg></a>
+    <a href="#"><svg class="top-of-the-page"><use xlink:href="#briefcase"></use></svg></a>
+    <a href="#"><svg class="top-of-the-page"><use xlink:href="#pencil"></use></svg></a>
+    <a href="#"><svg class="top-of-the-page"><use xlink:href="#gear"></use></svg></a>
+  </nav>
+</header>
+<!-- <img src="img/background-photo.jpg"> -->
+<section>
+  <div id="center-space">
+    <h1>RESPONSIVE FULL BACKGROUND IMAGE</h1>
+    <div id="center-spacebetween">
+      <h2>SECURE&nbspYOUR&nbspFUTURE</h2>
+      <h3>LEARN&nbspTO&nbspCODE AND ALWAYS&nbspBE&nbspEMPLOYABLE<h3>
+    </div>
+    <button>BUILD YOUR FUTURE</button>
+  </div>
+</section>
+
+<footer>
+  <nav>
+    <a href="#"><svg><use xlink:href="#home"></use></svg>Home</a>
+    <a href="#"><svg><use xlink:href="#briefcase"></use></svg>Portfolio</a>
+    <a href="#"><svg><use xlink:href="#pencil"></use></svg>Edit</a>
+    <a href="#"><svg><use xlink:href="#gear"></use></svg>Settings</a>
+  </nav>
+</footer>
+
+</body>
+</html>
