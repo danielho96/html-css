@@ -1,0 +1,44 @@
+div {
+  height: 100%;
+  border: 1px solid tomato;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right {
+  /*border-radius: 5px;*/
+  padding: 0 20px 0 20px;
+  background-color: rgb(195, 210, 214);
+}
+
+.left:hover, .right:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+
+.left {
+  border-radius: 5px 0 0 5px;
+}
+
+.right {
+  border-radius: 0 5px 5px 0;
+}
+
+#middle {
+  /*border: 1px solid grey;*/
+  padding: 0 30px 0 30px;
+  border-left: 0;
+  border-right: 0;
+}
+
+section {
+  /*border: 2px solid hotpink;*/
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}

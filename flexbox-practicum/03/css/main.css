@@ -1,0 +1,72 @@
+body {
+  /*border: 5px solid hotpink;*/
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+  height: 4rem;
+  background-color: rgb(84, 84, 84);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav, div {
+  width: 300px;
+  height: 80%;
+  margin: 10px;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  /*debugging*/
+  /*border: 2px solid red;*/
+  /*background-color: rgb(125, 205, 191);*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: rgb(158, 158, 158);
+  color: black;
+}
+
+nav {
+  margin-left: 50px;
+  width: 450px;
+}
+
+.choped {
+  font-size: .93rem;
+  padding: 0 15px 0 15px;
+}
+
+.left-nav, .right-nav {
+  padding: 5px 30px 5px 30px;
+}
+
+main {
+  height: 100vh;
+  font-size: 10rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-icon {
+  fill: rgb(223, 87, 205);
+}
+
+p {
+  color: rgb(167, 167, 167);
+}
