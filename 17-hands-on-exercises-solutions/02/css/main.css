@@ -1,0 +1,32 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 4vh;
+}
+
+body {
+  height: 100vh;
+  color: red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  animation-name: grow-in-size;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes grow-in-size {
+  0% {font-size: 1rem;}
+  100% {font-size: 4rem;}
+}

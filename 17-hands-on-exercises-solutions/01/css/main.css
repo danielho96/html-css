@@ -1,0 +1,37 @@
+body, head, html, div, svg{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*from mcleod-reset.css*/
+svg {
+  width: 1.9em;
+  height: 1.9em;
+  fill: currentColor;
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item {
+  font-size: 10rem;
+  position: relative;
+  fill: red;
+  animation-name: lefttoright;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lefttoright {
+  0% {left: 0;}
+  100% {left: 66%;}
+}
