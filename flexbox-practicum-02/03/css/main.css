@@ -1,0 +1,66 @@
+html, body, svg, main, h1, h2, button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+button {
+  outline: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+svg {
+  width: 1.9em;
+  height: 1.9em;
+  fill: currentColor;
+}
+
+main {
+  /*border: 2px solid hotpink;*/
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-icon, h1, h2, button {
+  color: rgb(124, 128, 129);
+  text-align: center;
+  margin: 20px;
+}
+
+.main-icon {
+  /*border: 2px solid hotpink;*/
+  margin-bottom: 0;
+  font-size: 10rem;
+  color: rgb(196, 225, 231);
+}
+
+h1 {
+  /*border: 2px solid hotpink;*/
+  margin-top: 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  /*border: 2px solid hotpink;*/
+  font-size: 2.6rem;
+}
+
+button {
+  /*border: 2px solid hotpink;*/
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  font-size: 2.6rem;
+  color: whitesmoke;
+  background-color: rgb(55, 196, 246);
+}
+
+button:hover {
+  background-color: deepskyblue;
+}

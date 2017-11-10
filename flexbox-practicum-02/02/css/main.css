@@ -1,0 +1,57 @@
+head, body, html, div, nav, footer, button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0;
+}
+
+html {
+  font-size: 2.4rem;
+  color: deepskyblue;
+}
+
+body{
+  height: 100vh;
+}
+
+#container {
+  border-right: 2px solid rgb(217, 225, 226);
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav, footer {
+  /*border: 2px solid limegreen;*/
+  width: 100%;
+  margin: 40px;
+}
+
+nav button, footer button {
+  width: 100%;
+  font-size: .9rem;
+  color: deepskyblue;
+  text-align: left;
+  padding: 20px 40px 20px 40px;
+  /*display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;*/
+}
+
+nav button:hover {
+  background-color: rgb(217, 225, 226);
+}
+
+footer button:hover {
+  background-color: rgb(217, 225, 226);
+}

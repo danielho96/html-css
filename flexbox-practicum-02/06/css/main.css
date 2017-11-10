@@ -1,0 +1,61 @@
+html, body, svg, span, h1, main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+html {
+  font-family: sans-serif;
+  color: rgb(172, 195, 200);
+}
+
+svg {
+  width: 1.9em;
+  height: 1.9em;
+  fill: currentColor;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 195, 200);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-icon {
+  /*border: 2px solid hotpink;*/
+  font-size: 10rem;
+}
+
+span {
+  /*border: 2px solid hotpink;*/
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+div {
+  height: 25%;
+  width: 100%;
+  font-size: 2rem;
+  border-radius: 0 0 9px 9px;
+  border-top: 1px solid rgb(172, 195, 200);
+  background-color: rgb(202, 217, 221);
+  color: rgb(83, 83, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

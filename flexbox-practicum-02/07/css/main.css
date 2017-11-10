@@ -1,0 +1,66 @@
+html, svg, section, main, span, h1, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+svg {
+  width: 1.9em;
+  height: 1.9em;
+  fill: currentColor;
+}
+
+html {
+  font-family: sans-serif;
+  color: rgb(156, 183, 184);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 600px;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section {
+  border: 1px solid rgb(112, 135, 138);
+  border-radius: 10px;
+}
+
+.thumb-icon {
+  margin-top: 20px;
+}
+
+svg {
+  font-size: 8rem;
+}
+
+span {
+  font-size: 3rem;
+}
+
+div {
+  width: 100%;
+  height: 20%;
+  font-size: 3rem;
+  border-top: 1px solid rgb(112, 135, 138);
+  border-radius: 0 0 9px 9px;
+  background-color: rgb(193, 208, 209);
+  color: rgb(112, 135, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

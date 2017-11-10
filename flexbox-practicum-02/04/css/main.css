@@ -1,0 +1,31 @@
+html, body, main, svg, button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+main {
+  /*border: 5px solid hotpink;*/
+  height: 100vh;
+  display: flex;
+  /*flex-flow: column nowrap;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.main-icon {
+  border: 1px solid rgb(207, 207, 207);
+  height: 200px;
+  width: 200px;
+  /*padding: 10px;*/
+  border-radius: 100%;
+  box-shadow: 2px 3px 1px 1px rgb(175, 175, 175);
+  fill: rgb(153, 182, 185);
+}
