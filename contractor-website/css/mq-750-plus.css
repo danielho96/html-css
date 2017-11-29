@@ -1,0 +1,35 @@
+/*html {
+  font-size: 0.9rem;
+}*/
+
+header nav{
+  display: none;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+main {
+  height: 55vh;
+  background-image: url("../images/fam_blur_under_600_web_medium.jpg");
+}
+
+article {
+  width: 80vw;
+}
+
+#check-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#check-section div img{
+  display: none;
+}
+
+#bot-image {
+  height: 55vh;
+  background-image: url("../images/us_16_9_smaller_web_30.jpg");
+}

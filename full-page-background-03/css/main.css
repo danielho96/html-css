@@ -1,0 +1,66 @@
+html, body, head, div, h1, span {
+  /*reset*/
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#atf {
+  /*height and backgroun*/
+  height: 100vh;
+  background-image: url("../img/bird.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*center h1 in the middle of the page*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /*color and size*/
+  font-size: 6rem;
+  color: whitesmoke; /* or this color rgb(207, 108, 108)*/
+}
+
+/*for debuggin*/
+/*body {
+  border: 5px solid hotpink;
+}*/
+
+header {
+  /*making a fixed header bar*/
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(157, 157, 157, 0.44);
+  /*position the divs in header*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div {
+  height: 70%;
+  width: 100px;
+  border: 2px solid red;
+  margin: 0 20px;
+  /*positioning the text-node in div*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  border: 2px solid limegreen;
+  width: 99%;
+  font-family: 'Sedgwick Ave Display', serif;
+  font-size: 6rem;
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,284 @@
+/** {
+  border: 2px solid hotpink;
+}*/
+
+html {
+    /*font-size: 1vw;*/
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-width {
+    /*set width of header*/
+    width: 60vw;
+}
+
+header {
+    /* arrange content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* format*/
+    margin-top: 1rem;
+    /*border: 1px solid red;*/
+}
+
+h1 {
+  text-align: center;
+    font-size: 3rem;
+}
+
+h2, h3, h4 {
+  font-size: 2rem;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    width: 8%;
+    margin: 1rem 1.5%;
+    height: 1.5rem;
+    /*border: 1px solid black;*/
+    background-color: rgb(228, 228, 228);
+    /* arrange content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div {
+    width: 25%;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+main {
+  /*set size of main*/
+  width: 100vw;
+  height: 80vh;
+  /*set max to 100% to prevent overflow*/
+  max-width: 100%;
+  /*put in background image*/
+  background-image: url("../images/fam_blur.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*arrange child*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#atf {
+  /*arrange child*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  /*color text*/
+  color: whitesmoke;
+}
+
+#atf h1, h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#atf h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+/*link for atf*/
+.link-to-store {
+  /*style a tag*/
+  color: whitesmoke;
+  padding: 10px;
+  background-color: red;
+}
+
+article {
+  width: 50vw;
+}
+
+article section {
+  /*border: 2px solid hotpink;*/
+  /*space between*/
+  margin: 10px 0 10px 0;
+}
+
+h3 {
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+article section p {
+  /*style p*/
+  margin-top: 10px;
+  font-size: 1rem;
+  color: rgb(138, 139, 140);
+}
+
+.link-container {
+  /*center link red button in articles*/
+  text-align: center;
+  padding: 10px 0 10px 0;
+  /*border: 2px solid red;*/
+}
+
+#check-container {
+  /*arrange child*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#check-section {
+  /*border: 2px solid hotpink;*/
+  width: 65%;
+  /*arrange child*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#check-section div ol li{
+  /*style list and space between*/
+  font-size: 0.9rem;
+  /*light grey color*/
+  color: rgb(138, 139, 140);
+  padding: 5px 0 5px 0;
+}
+
+#check-section h4 {
+  padding-bottom: 5px;
+}
+
+.source {
+  /*style footer*/
+  font-size: 0.9rem;
+  /*light grey color*/
+  color: rgb(138, 139, 140);
+  /*arrange child*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+.source a:hover {
+  /*give line and change color*/
+  text-decoration: underline;
+  color: blue;
+}
+
+article {
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+table, tr, th, td {
+  /*styling table*/
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.table-title {
+  margin-top: 15px;
+}
+
+table {
+  /*space between*/
+  margin-top: 10px;
+}
+
+.highlight {
+  /*styling tr*/
+  background-color: rgb(199, 199, 199);
+}
+
+th {
+  font-weight: 600;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.7rem;
+}
+
+.table-foot{
+  /*styling*/
+  border: 1px solid black;
+  border-top: 0;
+  padding: 10px;
+}
+
+#bot-image {
+  /*sizing content and position*/
+  width: 100vw;
+  height: 80vh;
+  max-width: 100%;
+  margin-top: 20px;
+  /*styling text*/
+  color: whitesmoke;
+  text-align: center;
+  /*add background image*/
+  background-image: url("../images/us_left_web_30.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*arrange child*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#info h1 {
+  /*styling h1*/
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 20px;
+}
+
+#phone-title, #phone-num {
+  /*styling*/
+  font-family: serif;
+  color: red;
+}
+
+#phone-title {
+  font-size: 2rem;
+}
+
+#phone-num {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#phone-num:hover {
+  color: blue;
+}
+
+#ending {
+  /*styling*/
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+address a {
+  color: purple;
+}
+
+address a:hover {
+  text-decoration: underline;
+  color: blue;
+}

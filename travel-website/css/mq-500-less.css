@@ -1,0 +1,138 @@
+header {
+    /*sizing*/
+    height: 7vh;
+    /*arrange child*/
+    justify-content: center;
+}
+
+#logo {
+    /*styling text*/
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+#logo:hover {
+    color: royalblue;
+}
+
+#atf header nav {
+    display: none;
+}
+
+#hero-img {
+    /*adding background image rest of the settings in main.css*/
+    background-image: url("../images/adventure-sm.jpg");
+}
+
+#cta {
+    /*debug*/
+    /*border: 2px solid red;*/
+    /*sizing*/
+    height: 18vh;
+}
+
+#cta h1, #cta a {
+    /*debug*/
+    /*border: 2px solid limegreen;*/
+    text-align: center;
+}
+
+#cta h1 {
+    /*styling text*/
+    font-size: 2.3rem;
+    line-height: 120%;
+}
+
+#cta a {
+    width: 40%;
+    /*styling text*/
+    font-size: 1.2rem;
+    color: whitesmoke;
+    /*syling container*/
+    border-radius: 5px;
+    background-color: rgb(43, 43, 43);
+    padding: 15px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#cta a:hover {
+    background-color: deepskyblue;
+}
+
+ol {
+    /*arrange child*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ol li {
+    /*space between*/
+    margin: 5px 0 5px 0;
+}
+
+article {
+  /*arrange child*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2, section p {
+    /*space between*/
+    margin: 8px;
+}
+
+section h2 {
+    /*styling text*/
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-indent: 2px;
+}
+
+section p {
+    font-size: 0.9rem;
+}
+
+section p a {
+    color: blue;
+}
+
+footer nav {
+    /*arrange child*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav a {
+    width: 100%;
+    /*styling text*/
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    /*styling container*/
+    border-bottom: 1px solid rgb(93, 199, 226);
+    background-color: deepskyblue;
+    padding: 15px;
+}
+
+footer nav a:hover {
+  background-color: royalblue;
+}
+
+footer address {
+    /*styling text*/
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(173, 173, 173);
+    line-height: 130%;
+    /*styling container*/
+    background-color: rgb(51, 51, 51);
+    padding: 20px 0 20px 0;
+}
